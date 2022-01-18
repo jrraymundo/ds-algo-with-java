@@ -1,4 +1,4 @@
-package project.learning;
+package learning;
 
 public class Main {
 

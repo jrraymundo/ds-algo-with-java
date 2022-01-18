@@ -1,4 +1,4 @@
-package project.learning.data.structures;
+package learning.data_structures;
 
 import java.util.Arrays;
 
