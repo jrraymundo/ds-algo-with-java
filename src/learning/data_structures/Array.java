@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class Array {
 
     /**
-     * Arrays
+     * ARRAYS
      * - Contiguous block in memory
      * - Every element occupies the same amount of space in memory (making it predictable for computing)
      *
-     * Array items are accessed fast and easily as long as you know the index.
+     * Items are accessed fast and easily as long as you know the index.
      * The computation that happens to access the arrays are constant O(1).
      * Formula is `x + i * y`
      * int x = start address of the array (could be anything)
@@ -25,7 +25,7 @@ public class Array {
      * Delete element by setting it to null - O(1)
      * Delete element by shifting elements - O(n)
      *
-     * KEY TAKEAWAY
+     * KEY TAKEAWAYS
      * - When you don't need to loop through an array for an operation,
      *   then it's O(1) or constant.
      * - When you need to loop over an array then it's O(n) or linear.
