@@ -4,19 +4,19 @@ import java.util.Arrays;
 
 public class BubbleSort {
 
-    /**
-     * BUBBLE SORT
-     * - In-place algorithm
-     * - Stable sort
-     * - Time complexity: O(n²) - quadratic
-     * - It will take 100 steps to sort 10 items
-     * - Probably shouldn't use this in real projects because it's slow
-     *
-     * Starting from the 1st index, you check if it's greater than the next index value
-     * If it's greater, then swap them. Else, move pointer to the greater index value
-     * and check if it's greater than the next index as well. This repeats until the greater
-     * values are moved to the end of the array.
-     */
+    /*
+     BUBBLE SORT
+     - In-place algorithm
+     - Stable sort
+     - Time complexity: O(n²) - quadratic
+     - It will take 100 steps to sort 10 items
+     - Probably shouldn't use this in real projects because it's slow
+
+     Starting from the 1st index, you check if it's greater than the next index value
+     If it's greater, then swap them. Else, move pointer to the greater index value
+     and check if it's greater than the next index as well. This repeats until the greater
+     values are moved to the end of the array.
+    */
 
     public static void main(String[] args) {
         int[] intArray = { 20, 35, -15, 7, 55, 1, -22 };
@@ -33,9 +33,7 @@ public class BubbleSort {
         System.out.println("Sorting complete.");
     }
 
-    /**
-     * Alternate Solution with while loop
-     *
+    /* Alternate Solution with while loop
     public static void main(String[] args) {
         int[] intArray = { 20, 35, -15, 7, 55, 1, -22 };
         int x = 0;
