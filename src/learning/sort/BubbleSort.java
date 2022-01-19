@@ -7,6 +7,7 @@ public class BubbleSort {
     /**
      * BUBBLE SORT
      * - In-place algorithm
+     * - Stable sort
      * - Time complexity: O(n²) - quadratic
      * - It will take 100 steps to sort 10 items
      * - Probably shouldn't use this in real projects because it's slow
